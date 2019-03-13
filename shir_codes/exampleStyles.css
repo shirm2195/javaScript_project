@@ -1,0 +1,101 @@
+
+* {
+    padding:0;
+    margin:0;
+    font-family: 'Abel', sans-serif;
+}
+
+header{
+    width:100%;
+    height:150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    background-color: deeppink;
+}
+
+
+body{
+    background-color: lightgrey;
+    color: #000;
+}
+
+h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 80px;
+}
+
+h2{
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+
+}
+
+.shirSolves{
+    width:100%;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    align-items: center;
+}
+
+.shirSolves h2{
+    font-size: 30px;
+    color: deeppink;
+    letter-spacing: 3px;
+
+}
+
+.container{
+    margin-top:50px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    display: block;
+    height: 200px;
+}
+
+.exercise{
+    display: flex;
+    justify-content: center;
+}
+
+.buttonDiv{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    width:100px;
+    height:40px;
+    padding:10px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    outline: none;
+    transition-duration: 0.4s;
+}
+
+
+.buttonClicked { 
+    background-color: deeppink !important;
+}
+
+.button:hover{
+    background-color: deeppink;
+    color: white;
+    cursor: pointer;
+}
+
+
+#date , #button3_p{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}

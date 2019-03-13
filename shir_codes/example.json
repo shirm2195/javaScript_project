@@ -1,0 +1,24 @@
+
+
+[
+    {
+        "name": "Roni",
+        "being": "dad",
+        "age": 55
+    },
+    {
+        "name": "Orly",
+        "being": "mom",
+        "age": 53
+    },
+    {
+        "name": "Ofek",
+        "being": "brother",
+        "age": 19
+    },
+    {
+        "name": "Tomer",
+        "being": "brother",
+        "age": 19
+    }
+]
